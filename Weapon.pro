@@ -24,7 +24,8 @@ SOURCES += \
     king.cpp \
     queen.cpp \
     axebehavior.cpp \
-    troll.cpp
+    troll.cpp \
+    knight.cpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -40,4 +41,5 @@ HEADERS += \
     king.h \
     queen.h \
     axebehavior.h \
-    troll.h
+    troll.h \
+    knight.h
