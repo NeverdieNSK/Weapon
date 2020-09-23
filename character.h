@@ -4,6 +4,7 @@
 #include "swordbehavior.h"
 #include "knifebehavior.h"
 #include "bowandarrowbehavior.h"
+#include "axebehavior.h"
 
 #include <iostream>
 using namespace std;
