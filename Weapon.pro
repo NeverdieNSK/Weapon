@@ -20,7 +20,8 @@ SOURCES += \
     swordbehavior.cpp \
     character.cpp \
     bowandarrowbehavior.cpp \
-    knifebehavior.cpp
+    knifebehavior.cpp \
+    king.cpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -32,4 +33,5 @@ HEADERS += \
     swordbehavior.h \
     character.h \
     bowandarrowbehavior.h \
-    knifebehavior.h
+    knifebehavior.h \
+    king.h

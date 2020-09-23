@@ -1,4 +1,6 @@
 #include <QCoreApplication>
+#include "character.h"
+#include "king.h"
 #include "weaponbehavior.h"
 #include "swordbehavior.h"
 #include "bowandarrowbehavior.h"
@@ -14,6 +16,8 @@ int main(int argc, char *argv[])
     wb1->useWeapon();
     WeaponBehavior *wb2 = new KnifeBehavior();
     wb2->useWeapon();
+    Character *p = new King();
+    p->fight();
 
     return a.exec();
 }
