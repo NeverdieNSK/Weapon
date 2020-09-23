@@ -2,6 +2,7 @@
 #include "weaponbehavior.h"
 #include "swordbehavior.h"
 #include "bowandarrowbehavior.h"
+#include "knifebehavior.h"
 
 int main(int argc, char *argv[])
 {
@@ -11,6 +12,8 @@ int main(int argc, char *argv[])
     wb->useWeapon();
     WeaponBehavior *wb1 = new BowAndArrowBehavior();
     wb1->useWeapon();
+    WeaponBehavior *wb2 = new KnifeBehavior();
+    wb2->useWeapon();
 
     return a.exec();
 }
