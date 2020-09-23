@@ -5,11 +5,13 @@ Character::Character()
 
 }
 
-void Character::fight(){
+void Character::fight() {
     weapon->useWeapon();
 }
-    void setWeapon(WeaponBehavior *w){
+
+void Character::setWeapon(WeaponBehavior *w) {
     this->weapon = w;
 }
+
 
 

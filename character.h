@@ -2,6 +2,9 @@
 #define CHARACTER_H
 #include "weaponbehavior.h"
 
+#include <iostream>
+using namespace std;
+
 class Character
 {
 public:
