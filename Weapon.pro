@@ -18,7 +18,8 @@ SOURCES += \
         main.cpp \
     weaponbehavior.cpp \
     swordbehavior.cpp \
-    character.cpp
+    character.cpp \
+    bowandarrowbehavior.cpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -28,4 +29,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 HEADERS += \
     weaponbehavior.h \
     swordbehavior.h \
-    character.h
+    character.h \
+    bowandarrowbehavior.h
