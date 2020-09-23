@@ -5,5 +5,5 @@ SwordBehavior::SwordBehavior()
 
 }
 void SwordBehavior::useWeapon(){
-    cout<< "Udar mechom"<< endl;
+    cout<< "Heroic strike with the sword"<< endl;
 }
